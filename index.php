@@ -25,7 +25,7 @@
             else{
                 $nom = trojan($_POST['nom']);
             }
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
             if(empty($_POST['mdp'])){
                 $mdpErreur = "Le mot de passe ne peut pas être vide";
                 $erreur  = true;
